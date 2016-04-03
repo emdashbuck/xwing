@@ -32,10 +32,23 @@ It's an ongoing process.
 Building
 ========
 
+On Linux
+--------
+
 1. Install [Node.js](http://nodejs.org/) to get `npm`.
 2. `sudo npm install -g grunt-cli` to install the global Grunt CLI.
 3. `npm install` to install the dependencies listed in `package.json`.
-4. `grunt` to build everything into the `app` directory.  The builder is at `app/index.html`.
+4. `grunt` to build everything into the `app` directory.  YASB is at `app/index.html`.
+
+On Windows
+----------
+
+These instructions assume you have already downloaded [Github Desktop](https://desktop.github.com/) and the repo.
+2. Install [Node.js](http://nodejs.org/) to get the Node.js command prompt.
+3. In the Node.js command prompt, type `npm install -g grunt-cli` to install the global Grunt CLI.
+4. In the Git Shell, navigate (`cd address/of/folder`) to the main folder of the repo, then type `npm install` to install the dependencies listed in `package.json`.
+5. In the same location, type `grunt` to build everything into the `app` directory.  YASB is at `app/index.html`.
+
 
 Testing
 =======
